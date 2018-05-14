@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "ImageScroller",
+    "description": "This project is really great.",
+    "slug": "ImageScroller",
+    "privacy": "public",
+    "sdkVersion": "27.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+        "versionCode": 1,
+        "package": "com.imageslider.horizontal",
+        "permissions" : ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"],
+        "splash" : {
+            "backgroundColor" : "#ffffff",
+            "resizeMode" : "contain",
+            "ldpi" : "./assets/splash/drawable-ldpi/splash.png",
+            "mdpi" : "./assets/splash/drawable-mdpi/splash.png",
+            "hdpi" : "./assets/splash/drawable-hdpi/splash.png",
+            "xhdpi" : "./assets/splash/drawable-xhdpi/splash.png",
+            "xxhdpi" : "./assets/splash/drawable-xxhdpi/splash.png",
+            "xxxhdpi" : "./assets/splash/drawable-xxxhdpi/splash.png"
+          }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "updates": {
+        "fallbackToCacheTimeout": 0,
+        "enabled": true
+    }
+  }
+}
